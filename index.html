@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="mainTitle">Portfolio | Yousef</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/Y-icon.png">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+
+    
+    <header>
+        <a href="index.html" class="logo" data-i18n="logo">Yousef</a>
+        
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="navigation">
+            <a href="#home" data-i18n="home">Home</a>
+            <a href="#services" data-i18n="services">Services</a>
+            <a href="#About" data-i18n="about">About</a>
+            <a href="#projects" data-i18n="project">Projects</a>
+            <a href="#contact" data-i18n="contact">Contact</a>
+            <div class="lang-selector-container">
+                <div class="lang-selector-wrapper">
+                    <select id="lang-selector">
+                        <option value="en" data-i18n="english">English</option>
+                        <option value="ar" data-i18n="arabic">Arabic</option>
+                    </select>
+                </div>
+            </div>
+            <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                <i class="fas fa-sun"></i>
+            </button>
+        </nav>
+        
+    </header>
+
+    <section class="main" id="home">
+        <div>
+            <h2 data-i18n="greeting">Hello, I'm Yousef</h2><h2><span data-i18n="profession">I'm a web designer</span></h2>
+            <h3 data-i18n="tagline">I love to designs website</h3>
+            <a href="#projects" class="main-btn" data-i18n="viewWork">View my work</a>
+            <div class="social-icons">
+                <a href="https://x.com/yousef130y"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/yousef130y/"><i class="bx bxl-instagram alt"></i></a>
+                <a href="https://github.com/Yousef130y"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+<section class="cards" id="services">
+    <h2 class="title" data-i18n="servicesTitle">Services</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class='bx bxl-html5' ></i>
+            </div>
+            <div class="info">
+                <h3 data-i18n="info1">Html Developer</h3>
+                <p data-i18n="description1">Writing a html code to make the Structure for the website.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class='bx bxl-css3' ></i>
+            </div>
+            <div class="info">
+                <h3 data-i18n="info2">Css Designer</h3>
+                <p data-i18n="description2">designs the website to make it look great and Responsive.</p>
+            </div>
+        </div>
+        <div class="card" style="background: rgba(162, 162, 162, 0.753);">
+            <h4 class="soon" data-i18n="soon">coming soon</h4>
+            <div class="icon">
+                <i class='bx bxl-javascript'></i>
+            </div>
+            <div class="info">
+                <h3 data-i18n="info3">Js Developer</h3>
+                <p data-i18n="description3">Writing a js code to make the website functional and beautiful .</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="About">
+    <h2 class="title" data-i18n="aboutTitle">About me</h2>
+    <div class="card1">
+    <p class="infon" data-i18n="content1">Hey there! 👋 I'm Yusuf, a passionate web designer who loves crafting modern, responsive, and clean websites. I specialize in HTML & CSS and focus on creating visually appealing and user-friendly designs. 🎨💻
+        I started my journey in freelancing to sharpen my skills and gain real-world experience. My goal is to constantly learn, improve, and grow as a designer while helping clients bring their ideas to life. 🚀</p>
+</section>
+
+<section class="projects" id="projects">
+    <h2 class="title" style="color: var(--accent-color)" data-i18n="projectsTitle">Projects</h2>
+    <div class="content">
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work1.png" alt="Food menu project" />
+            </div>
+            <div class="project-info">
+                <p class="project-category" data-i18n="category">Html & Css</p>
+                <strong class="project-title">
+                    <span data-i18n="project1">Food menu</span>
+                    <a href="http://freshbitemenu.elementfx.com/" class="more-details" data-i18n="details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work2.png" alt="Explore Egypt project" />
+            </div>
+            <div class="project-info">
+                <p class="project-category" data-i18n="category">Html & Css</p>
+                <strong class="project-title">
+                    <span data-i18n="project2">Explore Egypt</span>
+                    <a href="http://allaboutegypt.x10.mx/" class="more-details" data-i18n="details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work3.png" alt="Get it Done project" />
+            </div>
+            <div class="project-info">
+                <p class="project-category" data-i18n="category">Html & Css</p>
+                <strong class="project-title">
+                    <span data-i18n="project3">Get it Done</span>
+                    <a href="GetItDone/Register-Page.html" class="more-details" data-i18n="details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work4.png" alt="Online quiz project" />
+            </div>
+            <div class="project-info">
+                <p class="project-category" data-i18n="category">Html & Css</p>
+                <strong class="project-title">
+                    <span data-i18n="project4">Online quiz</span>
+                    <a href="OnlineQuiz/Online Quiz-Home.html" class="more-details" data-i18n="details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work5.png" alt="Daily Positivity project" />
+            </div>
+            <div class="project-info">
+                <p class="project-category" data-i18n="category">Html & Css</p>
+                <strong class="project-title">
+                    <span data-i18n="project5">Daily Positivity</span>
+                    <a href="simple-website/DailyPositivity/DailyPositivity.html" class="more-details" data-i18n="details">More details</a>
+                </strong>
+            </div>
+        </div>
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/work6.png" alt="Cap Store project" />
+        </div>
+        <div class="project-info">
+            <p class="project-category" data-i18n="category">Html & Css</p>
+            <strong class="project-title">
+                <span data-i18n="project6">Cap Store</span>
+                <a href="simple-website/CapStore/CapStore.html" class="more-details" data-i18n="details">More details</a>
+            </strong>
+        </div>
+    </div>
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/work7.png" alt="Wanderlust Diaries project">
+        </div>
+        <div class="project-info">
+            <p class="project-category" data-i18n="category">Html & Css</p>
+            <strong class="project-title">
+                <span data-i18n="project7">Wanderlust Diaries</span>
+                <a href="simple-website/WanderlustDiaries/WanderlustDiaries.html"class="more-details" data-i18n="details">More details</a>
+            </strong>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="cards contact" id="contact">
+    <h2 class="title" data-i18n="contactTitle">Let's work together</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-5"></i>
+            </div>
+            <div class="info">
+                <h3 data-i18n="khamsat">khamsat</h3>
+                <a href="https://khamsat.com/user/yousef15u" class="khamsat" data-i18n="khamsatDescription">Big freelancer website</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class='bx bxs-envelope' ></i>
+            </div>
+            <div class="info">
+                <h3 data-i18n="cardinfo">Email</h3>
+                <p>business@Yousef.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p class="footer-title" data-i18n="copyright">Copyrights @ <span>Yousef</span></p>
+    <div class="nav-fo">
+    <a href="#home" data-i18n="home">Home</a>
+    <a href="#services" data-i18n="services">Services</a>
+    <a href="#About" data-i18n="about">About</a>
+    <a href="#projects" data-i18n="project">Projects</a>
+    <a href="#contact" data-i18n="contact">Contact</a>
+    </div>
+    <div class="social-icons">
+        <a href="https://x.com/yousef130y"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/yousef130y/"><i class='bx bxl-instagram'></i></a>
+        <a href="https://github.com/Yousef130y"><i class='bx bxl-github'></i></a>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+<script src="script.js" type="module"></script>
+
+</body>
+</html>
